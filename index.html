@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="background-container">
+        <img src="images/cloud1.png" class="cloud" id="cloud1" alt="cloud">
+        <img src="images/cloud2.png" class="cloud" id="cloud2" alt="cloud">
+        <img src="images/cloud3.png" class="cloud" id="cloud3" alt="cloud">
+    </div>
+
+    <div id="game-container">
+        <div id="title-info">
+            <h1>Flappy Bird</h1>
+            <br>
+        </div>
+        <div id="canvas-container"></div>
+        <div id="footer">
+            <h2>Made with ❤️ by Beast</h2>
+        </div>
+    </div>
+
+    <!-- p5.js Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+
+    <script src="background.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
